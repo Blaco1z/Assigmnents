@@ -1,0 +1,120 @@
+<!--Create the following pages using HTML CSS 
+Registration page
+Login Page
+Success register page
+Your section of the registration page should include:
+First Name
+Last Name
+Phone Number
+Email
+Gender(select field)
+Date of Birth(Date selection options)
+Favorite Color(color selector)
+User Password
+Your section of the login page should include 
+Email and 
+password
+If the user uses the correct  format for email and passwoed, the user should be navigated to the success page.
+Hint: Searching for designs online will give you a better understanding of a beautiful design. -->
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body >
+  <div class="main">
+    <div class="registration_form">
+    <div class="title">
+      Registration Page
+    </div>
+   
+    <form action="login.html" target="_blank">
+      <div class="form">
+        <div class="input_grp">
+        <!--Input first name-->
+      <div class="text">
+            <label for="fname"><br>
+          FirstName:
+       </label><br>
+      <input type="text" placeholder="FirstName" name ='firstname' id ='fname' required> <br><br>
+      </div>
+
+       <!-- Input Last name -->
+       <div class="text">
+       <label for="lname">
+          LastName:
+       </label><br>
+       <input type="text" placeholder="LastName"  name ='lastname' id='lname 'required> <br><br>
+      </div>
+
+       <!-- Input the phone number -->
+       <div class="text">
+       <label for="telnumber">
+          Phone Number:
+        </label> <br>
+       <input type="tel" placeholder="+233..." name="contact" id='telnumber'required> <br><br>
+      </div>
+
+       <!-- Input the email -->
+       <div class="text">
+       <label for="email"> 
+         E-mail:
+       </label><br>
+       <input type="email" placeholder="iamblanco@gmail.com" name="email" id="email" required> 
+      </div>
+
+       <!-- Input the users' date of birth -->
+       <div class="input">
+       <label for="dob">
+        Date of Birth:
+       </label><br>
+       <input type="date" name='dob' id='dob'required> <br><br>
+      </div>
+
+       <!-- Input the favorite color -->
+      <div class="input">
+       <label>
+        Favorite Color:
+        </label>
+       <input type="color" name='fclor' id='fvcolor'required> <br><br>
+      </div>
+
+       <!-- Choose the users' gender -->
+       <div class="input">
+       <label>
+        Gender:
+      </label>
+        <label class="radio">
+          <input type="radio" value="Gender" name="Male"  class='input_radio'>
+         <span>Male</span> 
+      </label>
+      <label class="radio">
+       <input type="radio" value="Gender" name="Female" class='input_radio'>
+       <span>Female</span>
+      </label>
+      </div>
+
+       <!-- Users' valid password -->
+      <div class="text">
+       <label>
+          Password
+        </label><br>
+       <input type="password" placeholder="Password here!" required><br><br>
+      </div>
+    </div>
+
+    <!-- Click the button to move to the login page -->
+    <div class="Register_btn">
+       <button>Register Now!</button>
+      </div>
+
+  </div>
+  </form>
+   </div>
+  </div>
+</body>
+</html>
