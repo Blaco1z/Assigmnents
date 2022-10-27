@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0,0%,100%,0.75);
+    font-size: 15px;
+    
+    
+}
+main{
+    width:50%;
+    margin:auto;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.orange{
+    background-color: hsl(31,77%,52%);
+}
+
+.blue{
+    background-color: hsl(184,100%,22%);
+}
+
+.green{
+    background-color: hsl(179,100%,13%);
+}
+
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0,0%,95%);
+}
+p{
+    font-family:'Lexend Deca', sans-serif;
+    color: hsl(0,0%,95%);
+}  
+
+section{
+    width:100%;
+}
+button{
+    border-radius: 20px;
+    color: hsl(0,0%,95%);
+}
+img{
+    width: 3em;
+}
+.orange button{
+    background-color: hsl(31,77%,52%);
+}
+
+.blue button{
+    background-color:hsl(184,100%,22%); 
+}
+
+.green button{
+    background-color:hsl(179,100%,13%)
+}
